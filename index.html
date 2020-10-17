@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+<!--Assignment
+// Build a simple app with two fields. 
+// 1 = Investment amount (Minimum money is #50,000)
+// 2 = Percentage (In number)
+// Show the percentage in amount and the total.-->
+
+    <form id="form">
+        <small id="showerr"></small><br>
+        <label for="">Your Investment</label>
+        <input type="number" class="investment" name="" id="investment"> <br> <br>
+        <label for="">What percentage?</label>
+        <input type="number" class="percentage" name="" id="percentage"> <br>
+        <input type="submit" class="btn" value="Submit" name="" id="btn"> <br> <br>
+        <div id="amtpercentage" class="amtper"></div> <br>
+        <div id="total" class="total"></div>
+        <br>
+        <input type="button" onclick="clearForm()" value="Reset form">
+        <input type="button" onclick="reloadPage()" value="Reload page">
+    </form>
+
+    
+
+    
+    
+    <script src="/app.js"></script>
+</body>
+</html>

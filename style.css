@@ -1,0 +1,49 @@
+body {
+  background: crimson;
+}
+
+form {
+  margin: auto;
+  display: block;
+  text-align: center;
+  justify-content: center;
+}
+
+.investment {
+  padding: 5px;
+}
+
+.percentage {
+  padding: 5px;
+}
+
+.btn {
+  padding: 8px;
+  margin-top: 10px;
+}
+
+label {
+  color: #fff;
+}
+.amtper {
+  padding: 20px;
+  background: darkgray;
+  margin-left: 100px;
+  margin-right: 100px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.total {
+  padding: 20px;
+  background: darkgray;
+  margin-left: 100px;
+  margin-right: 100px;
+  color: #fff;
+  font-size: 20px;
+}
+
+small {
+  margin-top: 50px;
+  color: white;
+}
